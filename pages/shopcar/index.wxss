@@ -1,0 +1,44 @@
+/**index.wxss**/
+
+.nothing {
+  margin: 185rpx auto;
+}
+
+.text1 {
+  text-align: center;
+  height: 56rpx;
+  font-size: 40rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  line-height: 56rpx;
+}
+
+.text2 {
+  margin-top: 18rpx;
+  text-align: center;
+  height: 88rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  line-height: 38rpx;
+}
+
+.toIndex {
+  text-align: center;
+  margin: 123rpx auto;
+  width: 180rpx;
+  line-height: 94rpx;
+  border-radius: 3rpx;
+  border: 2rpx solid rgba(234, 104, 25, 1);
+  font-size: 40rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(234, 104, 25, 1);
+}
+
+.something {
+  background-color: #d8d8d8;
+  min-height: 1200rpx;
+}

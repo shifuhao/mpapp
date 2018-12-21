@@ -1,0 +1,10 @@
+{
+
+  "usingComponents": {
+    "listtip":"/components/list/listtip/listtip",
+    "listdetail":"/components/list/listdetail/listdetail"
+  },
+
+  "navigationBarTitleText": "所有商品"
+
+}

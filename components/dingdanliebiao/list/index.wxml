@@ -1,0 +1,27 @@
+<!--components/dingdanliebiao/list/index.wxml-->
+<!-- <text>components/dingdanliebiao/list/index.wxml</text> -->
+<view class='all' wx:if="{{propA==0}}">
+  <view class='allin' wx:for="{{all}}" wx:key="{{index}}">
+    <view><image src='{{item.img}}' mode='aspectFit'></image></view>
+    <view class='middle'>
+      <view class='title'>{{item.title}}</view>
+      <view class='des'>{{item.des}}</view>
+    </view>
+    <view>
+      <view class='price'>{{item.price}}</view>
+      <view class='num'>{{item.num}}</view>
+    </view>
+  </view>
+</view>
+<view class='all' wx:elif="{{propA==1}}">
+1
+</view>
+<view class='all' wx:elif="{{propA==2}}">
+2
+</view>
+<view class='all' wx:elif="{{propA==3}}">
+3
+</view>
+<view class='all' wx:else>
+4
+</view>

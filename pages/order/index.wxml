@@ -1,0 +1,8 @@
+<!--pages/order/index.wxml-->
+<!-- <text>pages/order/index.wxml</text> -->
+<view class='out'>
+  <address></address>
+  <title></title>
+  <list></list>
+  <mail></mail>
+</view>

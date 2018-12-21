@@ -1,0 +1,5 @@
+<!--compents/hot/hot.wxml-->
+<!-- <text>compents/hot/hot.wxml</text> -->
+<view class='hot'>
+  <image src='{{item}}' mode="aspectFit" wx:for="{{imagearr}}" wx:key="{{index}}"></image>
+</view>

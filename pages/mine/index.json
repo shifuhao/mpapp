@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "address": "/components/mine/address/index",
+    "liebiao":"/components/mine/liebaio/index",
+    "youhui":"/components/mine/youhuiquan/index",
+    "line":"/components/mine/line/index"
+  },
+  "navigationBarTitleText": "我的"
+}

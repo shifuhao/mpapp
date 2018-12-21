@@ -1,0 +1,7 @@
+<!--components/dingdanliebiao/titile/index.wxml-->
+<!-- <text>components/dingdanliebiao/titile/index.wxml</text> -->
+<view class='title'>
+  <view class='titlein'>
+    <view wx:for="{{titleArr}}" wx:key="{{index}}" data-index='{{index}}'  class="{{checkedItemIndex==index?'checked':''}}" bindtap='clickMe'>{{item}}</view>
+  </view>
+</view>

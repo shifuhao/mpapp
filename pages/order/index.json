@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "address": "/components/order/address/index",
+    "list":"/components/dingdanliebiao/list/index",
+    "title":"/components/order/title/index",
+    "mail":"/components/order/mail/index"
+  }
+}

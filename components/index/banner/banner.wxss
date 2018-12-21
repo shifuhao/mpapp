@@ -1,0 +1,14 @@
+/* compents/banner/banner.wxss */
+/* banner图 */
+
+.banner {
+  position: absolute;
+  width: 686rpx;
+  top: 338rpx;
+  left: 32rpx;
+}
+
+.banner image {
+  width: 686rpx;
+  height: 257rpx;
+}

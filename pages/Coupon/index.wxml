@@ -1,0 +1,13 @@
+<!--pages/Coupon/index.wxml-->
+<!-- <text>pages/Coupon/index.wxml</text> -->
+<view class='out'>
+  <view class='title'>
+    <view wx:for="{{titleArr}}" wx:key="{{index}}" class="{{checked==index?'checked':''}}" bindtap='clickMe' data-index='{{index}}'>{{item}}</view>
+  </view>
+  <view class='img1' wx:if="{{checked==0}}">
+    <image wx:for="{{img1}}" src='{{item}}' wx:key="{{index}}" mode='aspectFit'></image>
+  </view>
+  <view class='img1' wx:else>
+    <image wx:for="{{img2}}" src='{{item}}' wx:key="{{index}}" mode='aspectFit'></image>
+  </view>
+</view>

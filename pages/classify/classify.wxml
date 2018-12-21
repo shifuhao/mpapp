@@ -1,0 +1,38 @@
+<!--pages/classify/classify.wxml-->
+<view class="search-bar">
+    <view class="search-wrap">
+        <view class="search-container" bindtap="find">
+            <image class="search-icon" src="/res/search.png"></image>
+            <input class="search-input" placeholder="搜索" placeholder-style="color:#aaaaaa;line-height:60rpx"/>
+        </view>
+    </view>
+</view>
+<!--left side navbar-->
+<view class="left-area">
+    <block wx:for="{{class1}}" wx:key="unique">
+        <view bindtap="tapNav" class="nav-item {{tapIndex==index?'nav-item-taped':''}}" data-navindex="{{index}}" data-tapindex="{{tapIndex}}" data-oneid="{{item.id}}">{{item.className}}</view>
+    </block>
+</view>
+<!--goods-->
+<block wx:for="{{class1}}" wx:key="unique" wx:for-item="class1Item">
+    <view class="goods-area {{tapIndex==index?'':'goods-area-hide'}}" data-classindex="{{index}}">
+        <view class="top-ad" wx:if="{{class1Item.adImg}}">
+            <image  class="ad-img" src="{{class1[tapIndex].adImg}}"></image>
+        </view>
+        <view class="class2-list">
+            <view class="class2-item" wx:for="{{class1Item.class2List}}" wx:key="unique" wx:for-item="class2Item">
+                <view class="class2-title">{{class2Item.className}}</view>
+                <view class="class3-list">
+                    <block wx:for="{{class2Item.class3List}}" wx:key="unique" wx:for-item="class3Item">
+                        <view class="class3-item" bindtap="toGoodsList" data-classid="{{class3Item.id}}">
+                            <image class="class3-img" src="{{class3Item.class3Img}}"></image>
+                            <view style="display: flex;justify-content: center">
+                                <view class="class3-name">{{class3Item.className}}</view>
+                            </view>
+                        </view>
+                    </block>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

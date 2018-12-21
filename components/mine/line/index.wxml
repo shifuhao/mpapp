@@ -1,0 +1,18 @@
+<!--components/mine/line/index.wxml-->
+<!-- <text>components/mine/line/index.wxml</text> -->
+<button class='line' open-type='contact'>
+  <view class='linein'>
+    <view class='lineinl'> <view>联系客服</view>
+</view>
+  </view>
+</button>
+<!-- <view class='concat' wx:if="{{bool}}">
+  <view class='concatin'>
+    <view class='title'>联系客服</view>
+    <view class='phoneNum'>{{phoneNum}}</view>
+    <view class='yesOrno'>
+      <view class='cancel' bindtap='cancel'>取消</view>
+      <view class='call' bindtap='call'>呼叫</view>
+    </view>
+  </view>
+</view> -->

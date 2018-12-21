@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents":{
+    "banner":"/components/detail/banner/banner",
+    "shopdes":"/components/detail/shopdes/shopdes",
+    "shopname":"/components/detail/shopname/shopname",
+    "dingdan":"/components/detail/dingdan/index",
+    "bottom":"/components/detail/bottom/index",
+    "tip":"/components/detail/tip/index",
+    "buy":"/components/detail/buy/index"
+  },
+  "navigationBarTitleText": "详情"
+}

@@ -1,0 +1,82 @@
+/* components/mine/line/index.wxss */
+
+button{
+  border-radius: unset;
+}
+.line {
+  width: 750rpx;
+  height: 81rpx;
+  background: rgba(255, 255, 255, 1);
+  /* border-bottom: 20rpx solid #D8D8D8; */
+  margin: 20rpx 0 ;
+}
+.linein{
+  /*margin: 0 32rpx;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 81rpx;
+}
+.lineinl{
+  font-size:28rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(47,47,47,1);
+}
+.lineinr{
+  color: #ccc;
+}
+.concat{
+  width: 750rpx;
+  height: 1334rpx;
+  background-color: rgba(0,0,0,0.65);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.concatin{
+  width:540rpx;
+height:278rpx;
+background:rgba(255,255,255,1);
+border-radius:4rpx;
+position: fixed;
+top:507rpx;
+left: 105rpx;
+/* filter:blur(15rpx); */
+}
+.title{
+  font-size:36rpx;
+font-family:PingFangSC-Medium;
+font-weight:500;
+color:rgba(51,51,51,1);
+line-height:42rpx;
+text-align: center;
+margin-top: 48rpx;
+}
+.phoneNum{
+  font-size:28rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(51,51,51,1);
+line-height:38rpx;
+text-align: center;
+margin-top: 17rpx;
+padding-bottom: 32rpx;
+border-bottom: 1rpx solid rgba(221,221,221,1);
+}
+.yesOrno{
+  display: flex;
+}
+.cancel{
+  width: 270rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-right: 1rpx solid rgba(221,221,221,1);
+  color: 999;
+}
+.call{
+  width: 270rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #EA6819;
+}

@@ -1,0 +1,8 @@
+<!--components/myAddress/bottom/index.wxml-->
+<!-- <text>components/myAddress/bottom/index.wxml</text> -->
+<view class='bottom' bindtap='clickMe'>
+  <view>
+    <image src="/res/icon_plus.png" class="icon-plus"></image>
+    <text>新增收货地址</text>
+  </view>
+</view>

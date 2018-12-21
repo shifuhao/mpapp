@@ -1,0 +1,6 @@
+{  "usingComponents": {
+    "title": "/components/dingdanliebiao/title/index",
+    "list":"/components/dingdanliebiao/list/index"
+  },
+    "navigationBarTitleText": "订单列表"
+}

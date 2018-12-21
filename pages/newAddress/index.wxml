@@ -1,0 +1,3 @@
+<!--pages/newAddress/index.wxml-->
+<!-- <text>pages/newAddress/index.wxml</text> -->
+<form formData="{{formData}}" addressId="{{addressId}}" isEditAddress="{{isEditAddress}}"></form>

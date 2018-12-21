@@ -1,0 +1,12 @@
+<!--pages/logs/index.wxml-->
+<view wx:if="{{page==0}}">
+    <listtop bind:myevent="onMyEvent"></listtop>
+    <listtip></listtip>
+    <listdetail></listdetail>
+</view>
+<view wx:else>
+    <searchBar></searchBar>
+    <leftSideTab classList="{{classList}}" bind:tapTab="onTapTab"></leftSideTab>
+    <tabIconContent classList="{{classList}}" tapIndex="{{tapIndex}}"></tabIconContent>
+</view>
+

@@ -1,0 +1,29 @@
+<!--components/detail/tip/index.wxml-->
+<!-- <text>components/detail/tip/index.wxml</text> -->
+<view class='tip'>
+  <view class='tipin'>
+    <view class='tipTitle'>
+      店铺活动
+    </view>
+    <view class='tipDes'>
+        <view class='baoyou'>
+      <view class='baoyoul'>
+        <!-- <view class='by' wx:for="{{baoyou}}" wx:key="{{key}}">
+          <view class='tag'>{{item.tag}}</view>
+          <view class='des'>{{item.des}}</view>
+        </view> -->
+        <view class='baoyoull'>
+          <view wx:for="{{baoyou}}" wx:key="{{index}}" class='tag'>{{item.tag}}</view>
+        </view>
+        <view class='baoyoulr'>
+          <view wx:for="{{baoyou}}" wx:key="{{index}}" class='des'>{{item.des}}</view>
+        </view>
+      </view>
+    </view>
+    </view>
+    <view class='tipCancel' bindtap='cancel'>
+      关闭
+    </view>
+  </view>
+
+</view>

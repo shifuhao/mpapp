@@ -1,0 +1,32 @@
+<!--compents/secondkill/secondkill.wxml-->
+<!-- <text>compents/secondkill/secondkill.wxml</text> -->
+<view class='skillout'>
+  <view class='skilltop'>
+    <text>超值秒杀</text>
+    <view class='time'>
+      <text class='hour timep'>00</text>\t
+      <text style='color:#888;font-size:24rpx;font-weight:600'>:</text>\t
+      <text class='minute timep'>16</text>\t
+      <text style='color:#888;font-size:24rpx;font-weight:600;'>:</text>\t
+      <text class='second timep'>17</text>
+    </view>
+    <text class='more'>更多</text>
+  </view>
+  <view class='skillbottom'>
+    <image src='http://xianqian-1255378077.file.myqcloud.com/weimeng-app/res/threeleft.png' mode='aspectFit' class='listl'></image>
+    <view class='listm'>
+      <image src='http://xianqian-1255378077.file.myqcloud.com/weimeng-app/res/threemiddle.png' mode='aspectFit'></image>
+      <text class='listtitle'>坚果炒货礼盒</text>
+      <text class='listdes'>食食有爱</text>
+      <text class='listprice'>¥45</text>
+      <text class='listyuanjia'>¥63</text>
+    </view>
+    <view class='listm'>
+      <image src='http://xianqian-1255378077.file.myqcloud.com/weimeng-app/res/threeright.png' mode='aspectFit'></image>
+      <text class='listtitle'>坚果炒货礼盒</text>
+      <text class='listdes'>食食有爱</text>
+      <text class='listprice'>¥45</text>
+      <text class='listyuanjia'>¥63</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<!--components/order/address/index.wxml-->
+<!-- <text>components/order/address/index.wxml</text> -->
+<view class='address'>
+  <view class='noAddress' wx:if="{{bool}}">
+    <view class='left'>
+      <text>+</text>
+      <text>新增收货地址</text>
+    </view>
+    <view class='right'>></view>
+  </view>
+  <view wx:else></view>
+</view>

@@ -1,0 +1,6 @@
+<!--components/list/leftSideTab/leftSideTab.wxml-->
+<view class="left-area">
+    <block wx:for="{{classList}}" wx:key="unique">
+        <view bindtap="tapNav" class="nav-item {{tapIndex==index?'nav-item-taped':''}}" data-navindex="{{index}}" data-tapindex="{{tapIndex}}" data-oneid="{{item.id}}">{{item.className}}</view>
+    </block>
+</view>

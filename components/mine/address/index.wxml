@@ -1,0 +1,8 @@
+<!--components/mine/address/index.wxml-->
+<!-- <text>components/mine/address/index.wxml</text> -->
+<view class='address' bindtap='clickMe'>
+  <view class='addressin'>
+    <view class='addressinl'>我的地址</view>
+    <view class='arrow-r'></view>
+  </view>
+</view>

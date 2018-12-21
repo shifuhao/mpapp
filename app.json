@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myAddress/index",
+    "pages/list/index",
+    "pages/listDelivery/listDelivery",
+    "pages/shopcar/index",
+    "pages/mine/index",
+    "pages/detail/detail",
+    "pages/dingdanliebiao/index",
+    "pages/Coupon/index",
+    "pages/buyNow/index",
+    "pages/order/index",
+    "pages/newAddress/index",
+    "pages/finish/index",
+    "pages/list0/list0"
+  ],
+  "window": {
+    "navigationBarTitleText": "一秒梦七年",
+    "navigationBarBackgroundColor": "#ea6819"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#EA6819",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./res/bottomcopy.png",
+        "selectedIconPath": "./res/bottom.png"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "text": "分类",
+        "iconPath": "./res/bottomcopy2.png",
+        "selectedIconPath": "./res/bottom1.png"
+      },
+      {
+        "pagePath": "pages/shopcar/index",
+        "text": "购物车",
+        "iconPath": "./res/shopcarg.png",
+        "selectedIconPath": "./res/bottom2.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "./res/bottomcopy4.png",
+        "selectedIconPath": "./res/bottom3.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

@@ -1,0 +1,28 @@
+<!--pages/myAddress/index.wxml-->
+<!-- <text>pages/myAddress/index.wxml</text> -->
+<radio-group bindchange="radioChange" style="padding-bottom: 120rpx">
+  <view class="list-item" wx:for="{{addressList}}" wx:key="unique">
+    <view class="info-row" bindtap="{{fromOrder?'chooseAddress':''}}" data-id="{{item.id}}">
+      <view><text>收货人：{{item.recipient_name}}</text><text class="fr">{{item.phone}}</text><view class="clear"></view></view>
+      <view class="address">{{item.region}}{{item.address}}</view>
+    </view>
+    <view class="btn-row">
+      <view>
+        <radio value="{{index}}" checked="{{item.isDefault=='true'?true:false}}"/>默认地址
+      </view>
+      <view class="btn-row-r">
+        <view class="btn-cell" data-id="{{item.id}}" bindtap="editAddress">
+          <image class="btn-icon" src="../../res/edit.png"></image>
+          <view class="btn-name">编辑</view>
+        </view>
+        <view class="btn-cell" data-id="{{item.id}}" data-index="{{index}}" bindtap="delAddress">
+          <image class="btn-icon" src="../../res/delete.png"></image>
+          <view class="btn-name">删除</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</radio-group>
+<bottom></bottom>
+
+

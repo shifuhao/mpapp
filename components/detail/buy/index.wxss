@@ -1,0 +1,173 @@
+/* components/detail/buy/index.wxss */
+
+.tip {
+  position: fixed;
+  width: 750rpx;
+  height: 1206rpx;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.tipin {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+  /* height: 448rpx; */
+  background-color: #fff;
+  z-index: 9;
+}
+
+.tipTitle {
+  line-height: 75rpx;
+  width: 750rpx;
+  /* text-align: center; */
+  border-bottom: 1rpx solid #d8d8d8;
+  font-size: 30rpx;
+  color: #000;
+  display: flex;
+}
+
+.tipTitle image {
+  width: 150rpx;
+  position: absolute;
+  bottom: 457rpx;
+  left: 32rpx;
+}
+
+.tipTitle .titleIn {
+  margin-left: 243rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+}
+
+.tipTitle .title {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.tipTitle .price {
+  color: #ff3b30;
+}
+
+.tipTitle .cancel {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  border: 1rpx solid #979797;
+  color: #979797;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 32rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 32rpx;
+}
+
+.kouwei {
+  /* line-height: 75rpx; */
+  border-bottom: 1rpx solid #d8d8d8;
+}
+
+.kouweiIn {
+  margin-left: 32rpx;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+
+.kouweiIn view {
+  margin-right: 23rpx;
+  width: 120rpx;
+  line-height: 44rpx;
+  text-align: center;
+  font-size: 20rpx;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #979797;
+  border-radius: 2rpx;
+}
+
+.kouweiIn .check {
+  border: 0;
+  background-color: #ea6819;
+  color: #fff;
+}
+
+.kouweiTitle {
+  margin-top: 20rpx;
+  margin-bottom: 25rpx;
+  margin-left: 32rpx;
+}
+
+.tipCancel {
+  width: 750rpx;
+  line-height: 100rpx;
+  background-color: #ea6819;
+  color: #fff;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.num {
+  width: 750rpx;
+  border-bottom: 20rpx solid #efefef;
+  /* line-height: 75rpx; */
+}
+
+.numIn {
+  margin-left: 32rpx;
+}
+
+.numTitle {
+  margin-top: 20rpx;
+  margin-bottom: 25rpx;
+}
+
+.number {
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30rpx;
+}
+
+.step {
+  position: absolute;
+  display: flex;
+  top: 350rpx;
+  right: 32rpx;
+  width: 216rpx;
+  /* line-height: 55rpx; */
+  background-color: rebeccapurple;
+}
+
+.step text {
+  width: 70rpx;
+  line-height: 55rpx;
+  border: 1rpx solid #979797;
+  background-color: #fff;
+  text-align: center;
+  border-right: none;
+}
+
+.step view {
+  width: 72rpx;
+  line-height: 55rpx;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.sub {
+  border: 1rpx solid transparent;
+}
+
+.step .add {
+  border: 1rpx solid #979797;
+  background-color: #fff;
+  /* border-left: none; */
+}
+
+.step .sub {
+  border-right: none;
+}

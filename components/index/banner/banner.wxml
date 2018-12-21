@@ -1,0 +1,7 @@
+<!--compents/banner/banner.wxml-->
+<!-- <text>compents/banner/banner.wxml</text> -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='banner'>
+  <swiper-item wx:for="{{imagearr}}" wx:key="{{index}}"> 
+    <image src='{{item}}' mode='aspectFit'></image>
+  </swiper-item>
+</swiper>

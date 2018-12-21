@@ -1,0 +1,33 @@
+<!--components/index/newhot/index.wxml-->
+<!-- <text>components/index/newhot/index.wxml</text> -->
+<view class='hotnew'>
+  <view class='hot'>
+    <view class='title'>
+      <image src='{{url1}}' mode='widthFix'></image>
+    </view>
+    <view class='des'>
+      <view class="section section_gap">
+        <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+          <view bindtap='clickMe' class="scroll-view-item_H {{checkedItemIndex === index ? 'currentStyle':'normal'}}" data-index="{{index}}" wx:for="{{imagearr}}" wx:key="{{index}}"><image src='{{item}}' mode='widthFix'></image></view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+  <view class='new'>
+   <view class='title1'>
+      <image src='{{url2}}' mode='widthFix'></image>
+    </view>
+    <view class='des'>
+      <view class='detail' wx:for="{{imagesArr}}" wx:key="index">
+        <view class='detaill'>
+          <image src='{{item.url}}' mode='widthFix'></image>
+        </view>
+        <view class='detailm'>
+          <view class='mtitle'>{{item.title}}</view>
+          <view class='price'>{{item.price}}</view>
+        </view>
+        <view class='detailr'><image src='https://xianqian-1255378077.cos.ap-shanghai.myqcloud.com/weimeng-app/res/icon_dailyuse_add%402x.png' mode='widthFix'></image></view>
+      </view>
+    </view>
+  </view>
+</view>

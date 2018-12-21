@@ -1,0 +1,35 @@
+/* components/shopcar/title/index.wxss */
+.titleOut{
+  width: 750rpx;
+  line-height: 89rpx;
+  border-bottom: 1rpx solid #d8d8d8;
+  background-color: #fff;
+}
+.titleIn{
+  display: flex;
+  font-size:24rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color: #636363;
+/* justify-content: space-between; */
+margin: 0 32rpx;
+}
+.titleIn icon{
+  margin-top: 15rpx;
+  margin-right: 50rpx;
+}
+.titleIn image{
+  width: 26rpx;
+  margin-top: 30rpx;
+  margin-right: 10rpx;
+}
+.titleR{
+  display: flex;
+  justify-content: space-between;
+}
+.posr{
+  position: absolute;
+  right: 60rpx;
+  top: 0;
+  color: #4A90E2;
+}

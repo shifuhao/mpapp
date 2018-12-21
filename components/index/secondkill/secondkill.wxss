@@ -1,0 +1,116 @@
+/* compents/secondkill/secondkill.wxss */
+/* 超值秒杀 */
+
+.skilltop {
+  margin-top: 55rpx;
+  margin-left: 32rpx;
+  position: relative;
+}
+
+.skilltop text {
+  width: 144rpx;
+  height: 50rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: rgba(51, 51, 51, 1);
+  line-height: 50rpx;
+}
+
+.time {
+  position: absolute;
+  top: -7rpx;
+  left: 189rpx;
+}
+
+.time .timep {
+  width: 36rpx;
+  height: 36rpx;
+  background: rgba(51, 51, 51, 1);
+  border-radius: 4rpx;
+  font-size: 23rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 32rpx;
+  padding: 4rpx;
+}
+
+.skilltop .more {
+  width: 52rpx;
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  line-height: 37rpx;
+  color: #999;
+  margin-left: 490rpx;
+}
+
+.skillbottom {
+  margin-left: 32rpx;
+  margin-top: 27rpx;
+}
+
+.skillbottom .listl {
+  width: 218rpx;
+  height: 282rpx;
+  float: left;
+}
+
+.skillbottom .listm {
+  float: left;
+  margin-left: 16rpx;
+}
+
+.listm image {
+  width: 218rpx;
+  height: 161rpx;
+}
+
+.listm text {
+  display: block;
+}
+
+.listm .listtitle {
+  width: 180rpx;
+  height: 42rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 42rpx;
+}
+
+.listm .listdes {
+  width: 104rpx;
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  line-height: 37rpx;
+}
+
+.listm .listprice {
+  width: 47rpx;
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(255, 59, 48, 1);
+  line-height: 37rpx;
+  float: left;
+  margin-right: 9rpx;
+}
+
+.listm .listyuanjia {
+  width: 40rpx;
+  height: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(179, 179, 179, 1);
+  line-height: 30rpx;
+  float: left;
+  margin-top: 4rpx;
+}

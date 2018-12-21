@@ -1,0 +1,130 @@
+/* components/order/mail/index.wxss */
+
+.mail {
+  display: flex;
+  width: 750rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid #d8d8d8;
+  background-color: #fff;
+  justify-content: space-between;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.mailWay {
+  line-height: 100rpx;
+  margin-left: 32rpx;
+}
+
+.mailR {
+  display: flex;
+}
+
+.mailRr {
+  margin-right: 32rpx;
+  line-height: 100rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.name {
+  width: 750rpx;
+  line-height: 72rpx;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1rpx solid #d8d8d8;
+  /* border-top: 1rpx solid #d8d8d8; *//* margin-top: 20rpx; */
+  background-color: #fff;
+}
+
+.name text {
+  margin-left: 32rpx;
+  margin-right: 89rpx;
+  font-size: 30rpx;
+}
+
+.name input {
+  line-height: 72rpx;
+  height: 72rpx;
+}
+
+.inputc {
+  font-size: 30rpx;
+  color: #b1b1b1;
+}
+
+.price {
+  margin-top: 13rpx;
+  margin-bottom: 7rpx;
+}
+
+.m12 {
+  margin-right: 12rpx;
+}
+.sub{
+  margin-bottom: 100rpx;
+  border-bottom: 20rpx solid#d8d8d8;
+}
+.youhui {
+  width: 750rpx;
+  line-height: 72rpx;
+  display: flex;
+  /* margin-bottom: 120rpx; */
+  justify-content: space-between;
+  border-bottom: 1rpx solid #d8d8d8;
+  /* border-top: 1rpx solid #d8d8d8; *//* margin-top: 20rpx; */
+  background-color: #fff;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.middle {
+  margin-bottom: 20rpx;
+}
+
+.youhuiTitle {
+  margin-left: 32rpx;
+}
+
+.youhuiR {
+  display: flex;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 59, 48, 1);
+}
+.m32{
+  margin-right: 32rpx;
+}
+.youhuiRr {
+  margin-right: 32rpx;
+}
+.bottom{
+  border: 1rpx solid #d8d8d8;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+  line-height: 100rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30rpx;
+}
+.zongjia {
+  color: #FF3B30;
+  margin-right: 19rpx;
+}
+.submit{
+  width:200rpx;
+  height:100rpx;
+  background:rgba(234,105,25,1);
+  text-align: center;
+  color: #fff;
+}

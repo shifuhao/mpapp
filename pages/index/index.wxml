@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="page" wx:if="{{pageset==0}}">
+
+  <top></top>
+  <banner></banner>
+  <hot></hot>
+  <secondkill></secondkill>
+  <dingjian></dingjian>
+  <final products="{{products}}"></final>
+</view>
+<view wx:elif="{{pageset==1}}">
+  <view class="" hover-class="none" hover-stop-propagation="false">
+    <banner1></banner1>
+    <listType></listType>
+    <newhot></newhot>
+  </view>
+</view>
+<view wx:else>
+  <banner2></banner2>
+  <listType1></listType1>
+  <view class='img'>
+    <swiper>
+      <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" mode='widthFix' />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='routers'>
+    <view class='router' wx:for="{{routers}}" wx:key="index">
+      <view class='routert'>
+        {{item.title}}
+      </view>
+      <view class='routerdes'>
+        {{item.des}}
+      </view>
+      <view class='routerimg'>
+        <image src='{{item.url}}' mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='bottomImg'>
+      <image src='https://xianqian-1255378077.cos.ap-shanghai.myqcloud.com/weimeng-app/res/tag_dailyuse_recommend%402x.png' mode='widthFix'></image>
+    </view>
+    <view class='bottomBanner'>
+      <image src='https://xianqian-1255378077.cos.ap-shanghai.myqcloud.com/weimeng-app/res/pic_dailyuse_big%20%402x.png' mode='widthFix'></image>
+    </view>
+    <view class='bottomB'>
+      <view class='bottomBl'>
+        <view class='bottomBltitle'>{{product.title}}</view>
+        <view class='bottomBldes'>{{product.des}}</view>
+        <view class='bottomBlprice'>{{product.price}}</view>
+      </view>
+      <view class='bottomBr'>
+        <image src='https://xianqian-1255378077.cos.ap-shanghai.myqcloud.com/weimeng-app/res/icon_dailyuse_add%402x.png' mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<!--components/order/title/index.wxml-->
+<!-- <text>components/order/title/index.wxml</text> -->
+<view class='titleOut'>
+  <view class='titleIn'>
+    <view>
+      <image src='../../../res/shop3x.png' mode='widthFix'></image>
+    </view>
+    <view>良品铺子蔚盟商城</view>
+
+  </view>
+</view>

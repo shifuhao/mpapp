@@ -1,0 +1,19 @@
+<!--components/list/tabListContent/tabListContent.wxml-->
+
+<view class="goods-area">
+    <block wx:for="{{classList}}" wx:for-item="classItem" wx:key="unique">
+        <view class="goods-list {{tapIndex==index?'':'goods-list-hide'}}" data-classindex="{{index}}">
+            <view class="goods-item" wx:for="{{classItem.goods}}" wx:for-item="goods" wx:key="{{item.id}}">
+                <image class="goods-img" src="/res/pic_takeout_good1.png"></image>
+                <view class="goods-info">
+                    <view class="goods-name">{{goods.name}}</view>
+                    <view class="goods-tips">{{goods.tips}}</view>
+                    <view class="sale-num">月销{{goods.sale}}</view>
+                    <view class="goods-tab" wx:if="{{goods.tab}}">{{goods.tab}}</view>
+                    <view class="goods-price">{{goods.price}}</view>
+                    <view class="btn-add"></view>
+                </view>
+            </view>
+        </view>
+    </block>
+</view>

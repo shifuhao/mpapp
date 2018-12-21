@@ -1,0 +1,14 @@
+<!--pages/finish/index.wxml-->
+<!-- <text>pages/finish/index.wxml</text> -->
+<view class='out'>
+  <view class='top'>
+    <view class='icon'>
+      <icon type='success' size='65' color='#EA6819'></icon>
+    </view>
+    <view class='success'>支付成功</view>
+    <view class='tip'>商品在路上</view>
+  </view>
+  <view class='bottom' bindtap='toIndex'>
+    返回
+  </view>
+</view>

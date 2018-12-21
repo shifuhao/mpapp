@@ -1,0 +1,4 @@
+<!--pages/dingdanliebiao/index.wxml-->
+<!-- <text>pages/dingdanliebiao/index.wxml</text> -->
+<title bind:index="getIndex"></title>
+<list prop-a="{{checkItem}}"></list>

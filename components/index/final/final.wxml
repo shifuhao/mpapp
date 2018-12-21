@@ -1,0 +1,38 @@
+<!--compents/final/final.wxml-->
+<!-- <text>compents/final/final.wxml</text> -->
+<view class='finalout'>
+  <view class='finalin'>
+    <view wx:for="{{products}}" wx:key="{{index}}">
+      <image src='{{item.product_face}}' mode='aspectFit' data-productid="{{item.product_id}}" bindtap='clickMe' data-index="{{index}}"></image>
+      <view class='finaltitle'>{{item.product_name}}</view>
+      <view class='finalbotoom'>
+        <view>
+          <view class='finalprice'>¥{{item.product_current_price}}</view>
+          <view class='sellnum'>月销{{item.sellnum}}101件</view>
+        </view>
+        <view>
+          <image src='{{shopcar}}' class='shopcar' mode='aspectFit'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!--
+<view class='finalout'>
+  <view class='finalin'>
+    <view wx:for="{{list}}" wx:key="{{index}}">
+      <image src='{{item.imagesrc}}' mode='aspectFit' bindtap='clickMe' data-index="{{index}}"></image>
+      <view class='finaltitle'>{{item.title}}</view>
+      <view class='finalbotoom'>
+        <view>
+          <view class='finalprice'>{{item.price}}</view>
+          <view class='sellnum'>{{item.sellnum}}</view>
+        </view>
+        <view>
+          <image src='{{shopcar}}' class='shopcar' mode='aspectFit'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:for="{{products}}" wx:key="{{index}}">{{item}}</view>
+</view>-->

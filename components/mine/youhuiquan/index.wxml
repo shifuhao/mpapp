@@ -1,0 +1,8 @@
+<!--components/mine/youhuiquan/index.wxml-->
+<!-- <text>components/mine/youhuiquan/index.wxml</text> -->
+<view class='youhui' bindtap='clickMe'>
+  <view class='youhuiin'>
+    <view class='youhuiinl'>优惠券</view>
+    <view class='arrow-r'></view>
+  </view>
+</view>

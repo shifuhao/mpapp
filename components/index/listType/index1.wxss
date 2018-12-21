@@ -1,0 +1,32 @@
+/* components/index/listType/index.wxss */
+
+.list {
+  width: 750rpx;
+  height: 375rpx;
+  background: #fff;
+}
+
+.listtop, .listbottom {
+  /* margin-left: 58rpx; */
+  padding-top: 27rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.listtop image {
+  width: 82rpx;
+  height: 82rpx;
+}
+
+.listbottom image {
+  width: 102rpx;
+  height: 102rpx;
+}
+
+.tip {
+  font-size: 16rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(104, 104, 104, 1);
+  line-height: 22rpx;
+}

@@ -1,0 +1,5 @@
+<!--components/list/listtip/listtip.wxml-->
+<view class='fa'>
+  <text class='hot'>{{listname}}</text>
+  <text class='meat'>{{listdetail}}</text>
+</view>

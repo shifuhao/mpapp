@@ -1,0 +1,5 @@
+/* pages/order/index.wxss */
+.out{
+  background-color: #d8d8d8;
+  min-height: 1200rpx;
+}

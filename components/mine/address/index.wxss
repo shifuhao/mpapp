@@ -1,0 +1,29 @@
+/* components/mine/address/index.wxss */
+
+.address {
+  width: 750rpx;
+  height: 81rpx;
+  background: rgba(255, 255, 255, 1);
+  /* border-bottom: 20rpx solid #D8D8D8; */
+  margin: 20rpx 0 ;
+}
+.addressin{
+  margin: 0 32rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 81rpx;
+}
+.addressinl{
+  font-size:28rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(47,47,47,1);
+}
+.addressinr{
+  color: #ccc;
+}
+.arrow-r{
+  position: absolute;
+  right: 32rpx;
+}

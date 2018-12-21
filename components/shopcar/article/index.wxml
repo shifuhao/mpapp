@@ -1,0 +1,22 @@
+<!--components/shopcar/article/index.wxml-->
+<!-- <text>components/shopcar/article/index.wxml</text> -->
+<view class='article' wx:for="{{articleArr}}" wx:key="{{index}}">
+  <view class='articleIn'>
+    <view class='left'>
+      <icon size='15' type='success' color='#EA6919'></icon>
+    </view>
+    <view class='middle'>
+      <view class='img'>
+        <image src='{{item.imgSrc}}' mode='widthFix'></image>
+      </view>
+      <view class='btb'>
+        <view class='title'>{{item.title}}</view>
+        <view class='des'>{{item.des}}</view>
+        <view class='priceNum'>
+          <view class='price'>{{item.price}}</view>
+          <view class='num'>{{item.num}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

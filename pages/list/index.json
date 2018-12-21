@@ -1,0 +1,14 @@
+{
+   
+   "usingComponents": {
+    "listtop": "/components/list/listtop/listtop",
+    "listtip":"/components/list/listtip/listtip",
+    "listdetail":"/components/list/listdetail/listdetail",
+    "searchBar":"/components/list/searchBar/searchBar",
+    "leftSideTab":"/components/list/leftSideTab/leftSideTab",
+    "tabIconContent":"/components/list/tabIconContent/tabIconContent"
+  },
+    
+      "navigationBarTitleText": "分类"
+    
+}

@@ -1,0 +1,21 @@
+<!--components/detail/shiopname/shopname.wxml-->
+<!-- <text>components/detail/shiopname/shopname.wxml</text> -->
+<view class='shopname'>
+  <view class='logo'>
+    <image src='{{shopInfo.shop_logo}}' mode='aspectFit'></image>
+    <view class='titile'>{{shopInfo.shop_name}}</view>
+  </view>
+  <view class='tese'>
+    <view class='qiye'>
+      <image src='../../../res/shop.png'></image>
+      <text>企业认证</text>
+    </view>
+    <view class='danbao'>
+      <image src='../../../res/shop.png'></image>
+      <text>担保交易</text>
+    </view>
+    <view class='xianxia'>
+      <image src='../../../res/shop.png'></image>
+      <text>正品保证</text></view>
+  </view>
+</view>

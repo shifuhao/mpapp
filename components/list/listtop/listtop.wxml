@@ -1,0 +1,5 @@
+<view class="section section_gap">
+  <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+        <view bindtap='clickMe'  class="scroll-view-item_H {{checkedItemIndex === index ? 'currentStyle':'normal'}}"  data-index="{{index}}" wx:for="{{titlesarr}}" wx:key="{{index}}" >{{item.titlename}}</view>
+  </scroll-view>
+</view>

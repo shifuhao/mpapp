@@ -1,0 +1,18 @@
+/* components/order/address/index.wxss */
+
+.address {
+  width: 750rpx;
+  line-height: 100rpx;
+  background-color: #fff;
+  font-size: 30rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 20rpx ;
+}
+
+.noAddress {
+  margin: 0 32rpx;
+  display: flex;
+  justify-content: space-between;
+}

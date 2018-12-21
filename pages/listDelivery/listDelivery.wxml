@@ -1,0 +1,6 @@
+<!--pages/listDelivery/listDelivery.wxml-->
+<searchBar></searchBar>
+<!--<leftSideTabDelivery></leftSideTabDelivery>-->
+<leftSideTab classList="{{class1}}" bind:tapTab="onTapTab"></leftSideTab>
+<tabListContent classList="{{class1}}" tapIndex="{{tapIndex}}"></tabListContent>
+

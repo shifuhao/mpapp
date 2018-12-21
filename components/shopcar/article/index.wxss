@@ -1,0 +1,61 @@
+/* components/shopcar/article/index.wxss */
+.article{
+  width: 750rpx;
+  height: 211rpx;
+  border-bottom: 1rpx solid #d8d8d8;
+  background-color: #fff;
+}
+.articleIn{
+  margin: 0 32rpx;
+  display: flex;
+}
+.left{
+  margin-top: 103rpx;
+}
+.middle{
+  display: flex;
+}
+.img image{
+  width: 200rpx;
+  margin-left: 42rpx;
+  margin-top: 10rpx;
+}
+.btb{
+  margin-left: 68rpx;
+  margin-top: 10rpx;
+}
+.title{
+  width:324rpx;
+line-height:37rpx;
+font-size:26rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(51,51,51,1);
+}
+.des{
+  width:130rpx;
+height:37rpx;
+font-size:26rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(153,153,153,1);
+margin-top: 10rpx;
+margin-bottom: 30rpx;
+}
+.priceNum{
+  display: flex;
+  justify-content: space-between;
+}
+.price{
+  
+font-size:30rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(255,59,48,0.79);  
+}
+.num{
+  font-size:30rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(0,0,0,0.8);
+}

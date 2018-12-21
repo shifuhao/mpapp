@@ -1,0 +1,10 @@
+<swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}"
+        interval="{{interval}}"
+        duration="{{duration}}"
+        circular="{{circular}}"
+        class='banner'>
+  <swiper-item wx:for="{{productBanner}}" wx:key="{{index}}">
+    <image src='{{item.image_url}}' mode='widthFix'></image>
+  </swiper-item>
+</swiper>

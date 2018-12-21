@@ -1,0 +1,14 @@
+<!--components/detail/bottom/index.wxml-->
+<!-- <text>components/detail/bottom/index.wxml</text> -->
+<view class='bottom'>
+  <view class='toIndex' bindtap='goShopping'>
+    <view><image src='http://xianqian-1255378077.file.myqcloud.com/weimeng-app/res/shop3x.png' mode='aspectFit'></image></view>
+    <view>店铺</view>
+  </view>
+  <view class='toShopcar' bindtap='toShopcar'>
+    <view><image src='http://xianqian-1255378077.file.myqcloud.com/weimeng-app/res/shopcarg.png' mode='aspectFit'></image></view>
+    <view>购物车</view>
+  </view>
+  <view class='joinShopcar' bindtap='join'>加入购物车</view>
+  <view class='nowBuy' bindtap='buy'>立即购买</view>
+</view>

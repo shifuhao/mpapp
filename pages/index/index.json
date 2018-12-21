@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "top": "/components/index/top/top",
+    "banner":"/components//index/banner/banner",
+    "banner1":"/components//index/banner/banner1",
+    "banner2":"/components//index/banner/banner2",
+    "hot": "/components/index/hot/hot",
+    "newhot": "/components/index/newhot/index",
+    "secondkill": "/components/index/secondkill/secondkill",
+    "dingjian": "/components/index/dingjian/dingjian",
+    "final":"/components/index/final/final",
+    "listType":"/components/index/listType/index",
+    "listType1":"/components/index/listType/index1"
+  }
+}

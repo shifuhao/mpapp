@@ -1,0 +1,5 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='banner'>
+  <swiper-item wx:for="{{imagearr}}" wx:key="{{index}}"> 
+    <image src='{{item}}' mode='scaleToFill'></image>
+  </swiper-item>
+</swiper>

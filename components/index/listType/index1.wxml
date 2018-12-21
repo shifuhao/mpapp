@@ -1,0 +1,20 @@
+<!--components/index/listType/index.wxml-->
+<!-- <text>components/index/listType/index.wxml</text> -->
+<view class='list'>
+  <view class='listtop'>
+    <view wx:for="{{toparr}}" wx:key="index">
+      <view class='img'>
+        <image src='{{item.url}}'></image>
+      </view>
+      <view class='tip'>{{item.tip}}</view>
+    </view>
+  </view>
+   <view class='listbottom'>
+    <view wx:for="{{bottomarr}}" wx:key="index">
+      <view class='img'>
+        <image src='{{item.url}}'></image>
+      </view>
+      <view class='tip'>{{item.tip}}</view>
+    </view>
+  </view>
+</view>

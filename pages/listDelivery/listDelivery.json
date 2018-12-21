@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "searchBar":"/components/list/searchBar/searchBar",
+    "leftSideTab":"/components/list/leftSideTab/leftSideTab",
+    "tabListContent":"/components/list/tabListContent/tabListContent"
+  },
+
+  "navigationBarTitleText": "分类"
+}

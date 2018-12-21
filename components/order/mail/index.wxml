@@ -1,0 +1,52 @@
+<!--components/order/mail/index.wxml-->
+<!-- <text>components/order/mail/index.wxml</text> -->
+<view class='middle'>
+  <view class='mail'>
+    <view class='mailWay'>配送方式</view>
+    <view class='mailR'>
+      <view class='m12'>
+        <view class='price'>¥ 10.00</view>
+        <view>普通快递</view>
+      </view>
+      <view class='mailRr'>></view>
+    </view>
+  </view>
+  <view>
+    <view class='name'>
+      <text>留言</text>
+      <input placeholder='点击给商家留言' placeholder-class='inputc'></input>
+    </view>
+  </view>
+  <view class='youhui'>
+    <view class='youhuiTitle'>优惠</view>
+    <view class='youhuiR'>
+      <view class='m12'>
+        有1张优惠券可用
+      </view>
+      <view class='youhuiRr'>></view>
+    </view>
+  </view>
+</view>
+<view class='sub'>
+  <view class='youhui'>
+    <view class='youhuiTitle'>商品金额</view>
+    <view class=''>
+      <view class='m32'>
+        ¥ 53.40
+      </view>
+    </view>
+  </view>
+  <view class='youhui'>
+    <view class='youhuiTitle'>运费</view>
+    <view class=''>
+      <view class='m32'>
+        + ¥ 10.00
+      </view>
+    </view>
+  </view>
+</view>
+<view class='bottom'>
+  <view>合计：</view>
+  <view class='zongjia'>¥ 63.40</view>
+  <view class='submit' bindtap='submit'>提交订单</view>
+</view>

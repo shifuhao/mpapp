@@ -1,0 +1,12 @@
+<!--compents/top/top.wxml-->
+<!-- <text>compents/top/top.wxml</text> -->
+<view class='top'>
+  <image src="{{top.imagetop}}" class='search' mode='aspectFit'></image>
+  <input class='topin' placeholder='{{top.destop}}' placeholder-style="color:#999;font-size:28rpx"></input>
+  <view class='image'>
+    <view wx:for="{{imagearr}}" wx:key="{{index}}">
+      <image src='{{item.imagesrc}}' mode='aspectFit'></image>
+      <text>{{item.des}}</text>
+    </view>
+  </view>
+</view>

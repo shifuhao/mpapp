@@ -1,0 +1,19 @@
+<!--components/shopcar/bottom/index.wxml-->
+<!-- <text>components/shopcar/bottom/index.wxml</text> -->
+
+<view class='bottom'>
+  <view class='bottomIn'>
+    <view class='left'>
+      <icon size='15' type='success' color='#EA6919'></icon>
+      <view class='checkedAll'>全选</view>
+
+    </view>
+    <view class='right'>
+      <view>
+        <view class='total'>合计：¥19.23</view>
+        <view class='mailP'>不含运费</view>
+      </view>
+      <view class='buy'>结算</view>
+    </view>
+  </view>
+</view>

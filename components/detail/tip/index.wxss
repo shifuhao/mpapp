@@ -1,0 +1,85 @@
+/* components/detail/tip/index.wxss */
+.tip{
+  position: fixed;
+  width: 750rpx;
+  height: 1206rpx;
+  top: 0;
+  left: 0;
+background:rgba(0,0,0,0.6); 
+}
+.tipin{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+  /* height: 448rpx; */
+  background-color: #fff;
+  z-index: 9;
+}
+.tipTitle{
+  line-height: 100rpx;
+  width: 750rpx;
+  text-align: center;
+  border-bottom: 1rpx solid #d8d8d8;
+  font-size: 30rpx;
+  color: #000;
+
+}
+.tipCancel{
+  width: 750rpx;
+  line-height: 100rpx;
+  background-color: #EA6819;
+  color: #fff;
+  font-size: 30rpx;
+  text-align: center;
+
+}
+.tipDes{
+  border-bottom: 20rpx solid #d8d8d8;
+}
+.baoyou {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 17rpx;
+  margin-bottom: 18rpx;
+}
+
+.baoyoul {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24rpx;
+  margin-top: 12rpx;
+  margin-left: 32rpx;
+}
+
+.baoyour {
+  align-self: center;
+  color: rgba(187, 187, 187, 1);
+  margin-top: 34rpx;
+}
+
+.baoyoul .by:last-child {
+  margin-bottom: 18rpx;
+}
+
+.tag {
+  border: 1px solid rgba(255, 59, 48, 1);
+  color: rgba(255, 59, 48, 1);
+  padding: 2rpx;
+  line-height: 31rpx;
+  text-align: center;
+  margin-top: 12rpx;
+}
+
+.des {
+  margin-top: 18rpx;
+  margin-left: 47rpx;
+  /* margin-top: 4rpx; */
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  margin-right: 58rpx;
+  font-size: 30rpx;
+  color: #000;
+  line-height: 33rpx;
+}

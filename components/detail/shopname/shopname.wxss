@@ -1,0 +1,41 @@
+/* components/detail/shiopname/shopname.wxss */
+.shopname{
+  border-bottom: 10rpx solid #f0f0f0;
+  /* margin-bottom: 18rpx; */
+}
+.logo{
+  margin-top: 32rpx;
+  margin-left: 32rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  }
+.logo image{
+  width:64rpx;
+height:64rpx;
+}
+.title{
+  font-size:30rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(0,0,0,0.8);
+line-height:42rpx;
+align-self: center;
+}
+.tese{
+  margin:0 32rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18rpx;
+}
+.tese image{
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 10rpx;
+}
+.tese text{
+  font-size:24rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(0,0,0,0.5);
+line-height:33rpx;
+}

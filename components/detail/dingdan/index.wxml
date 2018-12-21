@@ -1,0 +1,26 @@
+<!--components/detail/dingdan/index.wxml-->
+<!-- <text>components/detail/dingdan/index.wxml</text> -->
+<import src="../../../wxParse/wxParse.wxml"/>
+<view class='m100'>
+  <view class='tabout'>
+    <view class='tab'>
+      <view class=" {{checkedItemIndex===index?'tab2':'tab1'}}" wx:for="{{titleArr}}" wx:key="{{index}}" data-index='{{index}}' bindtap='clickMe'>
+        {{item}}
+      </view>
+    </view>
+  </view>
+  <view class='bigimg' wx:if="{{checkedItemIndex===0}}">
+    <!--<image src='{{imgSrc}}' mode='widthFix'></image>-->
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  </view>
+  <view class='count' wx:else>
+    <view class='title'>
+      <view wx:for="{{title}}" wx:key="{{index}}">{{item}}</view>
+    </view>
+    <view class='des' wx:for="{{des}}" wx:key="{{index}}">
+      <view class='name'>{{item.name}}</view>
+      <view class='time'>{{item.time}}</view>
+      <view class='num'>{{item.num}}</view>
+    </view>
+  </view>
+</view>

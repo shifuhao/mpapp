@@ -1,0 +1,94 @@
+/* components/index/newhot/index.wxss */
+
+.hotnew {
+  width: 750rpx;
+  /* height: 1396px; */
+  background: rgba(237, 221, 204, 1);
+}
+
+.title {
+  width: 361rpx;
+  margin-left: 181rpx;
+  padding-top: 37rpx;
+  margin-bottom: 69rpx;
+}
+
+.title image {
+  width: 361rpx;
+}
+
+.title1 {
+  margin-left: 181rpx;
+  padding-top: 37rpx;
+  margin-bottom: 44rpx;
+}
+.title1 image{
+  width: 361rpx;
+
+}
+.scroll-view_H {
+  white-space: nowrap;
+}
+
+.scroll-view-item_H image {
+  width: 300rpx;
+}
+
+.scroll-view-item_H:first-child {
+  margin-left: 32rpx;
+}
+
+.scroll-view-item_H {
+  margin-right: 87rpx;
+  height: 100rpx;
+  display: inline-block;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 32rpx;
+  /* opacity: 0.65; */
+}
+
+.detail {
+  width: 686rpx;
+  height: 250rpx;
+  background: rgba(255, 255, 255, 1);
+  margin: 0rpx 32rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+
+.detail image{
+  width: 250rpx;
+}
+
+.mtitle{
+  font-size:28rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(139,87,42,1);
+line-height:40rpx;
+margin-top: 36rpx;
+/* margin-left: 22rpx; */
+height: 112rpx;
+margin-bottom: 23rpx;
+}
+.price{
+  font-size:28rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(216,30,6,1);
+line-height:40rpx;
+}
+.detailr{
+  text-align: center;
+  margin-top: 169rpx;
+  margin-right: 35rpx;
+  font-size: 50rpx;
+}
+.des{
+  padding-bottom: 28rpx;
+}
+.detailr image{
+  width: 46rpx;
+}

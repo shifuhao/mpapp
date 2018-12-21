@@ -1,0 +1,19 @@
+<!--components/mine/liebaio/index.wxml-->
+<!-- <text>components/mine/liebaio/index.wxml</text> -->
+<view class='liebiao'>
+  <view class='title' bindtap='clickMe'>
+    <view class='titlein'>
+      <view>订单列表</view>
+      <view class="arrow-r"></view>
+    </view>
+  </view>
+  <view class='des'>
+    <view wx:for="{{arr}}" bindtap='' wx:key="{{index}}">
+      <view>
+        <image src="{{item.img}}" mode='aspectFit'></image>
+      </view>
+      <view>{{item.text}}</view>
+    </view>
+
+  </view>
+</view>

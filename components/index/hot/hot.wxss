@@ -1,0 +1,17 @@
+/* compents/hot/hot.wxss *//* hot */
+.hot{
+  margin-top: 199rpx;
+}
+.hot image {
+  width: 335rpx;
+  height: 160rpx;
+  /* margin-top: 199rpx; */
+}
+
+.hot image:first-child {
+  margin-left: 32rpx;
+}
+
+.hot image:last-child {
+  margin-left: 16rpx;
+}

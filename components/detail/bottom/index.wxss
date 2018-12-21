@@ -1,0 +1,62 @@
+/* components/detail/bottom/index.wxss */
+
+.bottom {
+  position: fixed;
+  bottom: 0rpx;
+  display: flex;
+}
+
+.toIndex {
+  width: 100rpx;
+  /* line-height: 100rpx; */
+  font-size: 20rpx;
+  text-align: center;
+  color: #444;
+  background: #fff;
+    display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border-right: 2rpx solid #D8D8D8;
+}
+.toIndex image{
+  width: 38rpx;
+  height: 36rpx;
+}
+.toIndex view{
+  align-items: center;
+}
+.toShopcar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100rpx;
+  font-size: 20rpx;
+  /* line-height: 50rpx; */
+  text-align: center;
+  color: #444; 
+  background: #fff; 
+}
+.toShopcar image{
+  width: 38rpx;
+  height: 40rpx;
+}
+.toShopcar view{
+  align-items: center;
+}
+.joinShopcar {
+  width: 275rpx;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  text-align: center;
+  color: #fff;
+  background: rgba(234, 104, 25, 1);
+}
+
+.nowBuy {
+  width: 275rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #fff;
+  background: rgba(222, 56, 56, 1);
+}

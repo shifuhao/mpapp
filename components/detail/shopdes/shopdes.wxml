@@ -1,0 +1,82 @@
+<!--components/detail/shopdes/shopdes.wxml-->
+<!-- <text>components/detail/shopdes/shopdes.wxml</text> -->
+<view class='bor' >
+  <view class='fa'>
+    <view class='title'>
+      <view class='titlel'>
+        <view class='titlename'>{{productInfo.product_name}}</view>
+        <view class='price'>
+          <view class='price1'>¥{{productInfo.product_current_price}}</view>
+          <view class='price2'>¥{{productInfo.product_origin_price}}</view>
+        </view>
+
+      </view>
+      <view class='titler' bindtap='clickMe2'>
+        <image src='{{sharepic}}' mode='aspectFit'></image>
+        <view>分享</view>
+      </view>
+    </view>
+    <view class='sellnum'>
+      <view class='mailMoney'>运费：{{sellnum.mailMoney}}</view>
+      <view class='shengyu'>剩余：{{productInfo.product_stock}}</view>
+      <view class='xiaoliang'>销量：{{sellnum.xiaoliang}}</view>
+    </view>
+    <view class='baoyou' bindtap='clickMe'>
+      <view class='baoyoul'>
+        <!-- <view class='by' wx:for="{{baoyou}}" wx:key="{{key}}">
+          <view class='tag'>{{item.tag}}</view>
+          <view class='des'>{{item.des}}</view>
+        </view> -->
+        <view class='baoyoull'>
+          <view wx:for="{{baoyou}}" wx:key="{{index}}" class='tag'>{{item.tag}}</view>
+        </view>
+        <view class='baoyoulr'>
+          <view wx:for="{{baoyou}}" wx:key="{{index}}" class='des'>{{item.des}}</view>
+        </view>
+      </view>
+      <view class='baoyour'>
+        >
+      </view>
+    </view>
+  </view>
+</view>
+<!--<view class='bor' >
+  <view class='fa'>
+    <view class='title'>
+      <view class='titlel'>
+        <view class='titlename'>{{title.titlename}}</view>
+        <view class='price'>
+          <view class='price1'>{{title.price1}}</view>
+          <view class='price2'>{{title.price2}}</view>
+        </view>
+
+      </view>
+      <view class='titler' bindtap='clickMe2'>
+        <image src='{{sharepic}}' mode='aspectFit'></image>
+        <view>分享</view>
+      </view>
+    </view>
+    <view class='sellnum'>
+      <view class='mailMoney'>运费：{{sellnum.mailMoney}}</view>
+      <view class='shengyu'>剩余：{{sellnum.shengyu}}</view>
+      <view class='xiaoliang'>销量：{{sellnum.xiaoliang}}</view>
+    </view>
+    <view class='baoyou' bindtap='clickMe'>
+      <view class='baoyoul'>
+        &lt;!&ndash; <view class='by' wx:for="{{baoyou}}" wx:key="{{key}}">
+          <view class='tag'>{{item.tag}}</view>
+          <view class='des'>{{item.des}}</view>
+        </view> &ndash;&gt;
+        <view class='baoyoull'>
+          <view wx:for="{{baoyou}}" wx:key="{{index}}" class='tag'>{{item.tag}}</view>
+        </view>
+        <view class='baoyoulr'>
+          <view wx:for="{{baoyou}}" wx:key="{{index}}" class='des'>{{item.des}}</view>
+        </view>
+      </view>
+      <view class='baoyour'>
+        >
+      </view>
+    </view>
+  </view>
+</view>-->

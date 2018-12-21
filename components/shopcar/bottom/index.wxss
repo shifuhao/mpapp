@@ -1,0 +1,57 @@
+/* components/shopcar/bottom/index.wxss */
+
+.bottom {
+  width: 750rpx;
+  height: 100rpx;
+  /* border-bottom: 20rpx solid #d8d8d8; */
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.bottomIn {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32rpx;
+}
+.left{
+  display: flex;
+}
+.left icon{
+  margin-top: 35rpx;
+  margin-right: 24rpx;
+}
+.checkedAll{
+  margin-top: 31rpx;
+}
+.right{
+  display: flex;
+}
+.total{
+  text-align: right;
+font-size:26rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(51,51,51,1);
+margin-top: 12rpx;
+margin-bottom: 4rpx;
+}
+.mailP{
+  text-align: right;
+  font-size:26rpx;
+font-family:PingFangSC-Regular;
+font-weight:400;
+color:rgba(153,153,153,1);
+}
+.buy {
+  width: 200rpx;
+  line-height: 100rpx;
+  background-color: #ea6919;
+  color: #fff;
+  font-size: 30rpx;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  margin-left: 25rpx;
+}

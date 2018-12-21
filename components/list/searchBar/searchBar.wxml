@@ -1,0 +1,10 @@
+<!--components/list/searchBar/searchBar.wxml-->
+<view class="search-bar">
+    <view class="search-wrap">
+        <view class="title">{{shopName}}</view>
+        <view class="search-container" bindtap="find">
+            <image class="search-icon" src="/res/search-grey.png"></image>
+            <input class="search-input" placeholder="搜索" placeholder-style="color:#aaaaaa;line-height:60rpx"/>
+        </view>
+    </view>
+</view>

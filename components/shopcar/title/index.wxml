@@ -1,0 +1,16 @@
+<!--components/shopcar/title/index.wxml-->
+<!-- <text>components/shopcar/title/index.wxml</text> -->
+
+<view class='titleOut'>
+  <view class='titleIn'>
+    <view>
+      <icon size='15' type='success' color='#EA6919'></icon>
+    </view>
+    <view>
+      <image src='../../../res/shop3x.png' mode='widthFix'></image>
+    </view>
+    <view>良品铺子蔚盟商城</view>
+    <view class='posr'>编辑</view>
+
+  </view>
+</view>

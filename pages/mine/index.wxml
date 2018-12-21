@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<view class='mine'>
+  <view class="container1">
+    <view class="userinfo">
+      <view>
+        <view class='userInfoin'>
+          <view class='userinfol'>
+            <view class="user-face"><image class="userinfo-avatar" src="{{userInfo?userInfo.avatarUrl:'../../res/default-head.png'}}" mode="aspectFit"></image></view>
+            <!--<view class="user-face"><open-data type="userAvatarUrl"></open-data></view>-->
+          </view>
+          <view class='userinfor'>
+            <view class="userinfo-nickname">
+              <view wx:if="{{userInfo}}">{{userInfo.nickName}}</view>
+              <view wx:else><button class="login-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">微信登录获取头像昵称</button></view>
+            </view>
+            <!--<view class="userinfo-nickname"><open-data type="userNickName"></open-data></view>-->
+            <view class='bangding' bindtap='clickMe'>
+              <image src='http://xianqian-1255378077.file.myqcloud.com/weimeng-app/res/phone.png' mode="aspectFit"></image>
+              <text>绑定手机号</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!--<view wx:else class='userInfoin'>
+        <view class='userinfol'>
+          <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="aspectFit"></image>
+        </view>
+        <view class='userinfor'>
+          <view class="user-face"><view class="userinfo-nickname">{{userInfo.nickName}}</view>
+            <view class='bangding' bindtap='clickMe'>
+              <image src='http://xianqian-1255378077.file.myqcloud.com/weimeng-app/res/phone.png' mode="aspectFit"></image>
+              <text>绑定手机号</text>
+            </view>
+          </view>
+        </view>
+      </view>-->
+    <!--<view class='userinfolr'> > </view>-->
+  </view>
+</view>
+
+  <navigator class='address' url="/pages/myAddress/index">
+    <view class='addressin'>
+      <view class='addressinl'>我的地址</view>
+      <view class='arrow-r'></view>
+    </view>
+  </navigator>
+  <liebiao></liebiao>
+  <youhui></youhui>
+  <line></line>
+  <view class='phoneNum' wx:if="{{phone}}">
+    <view class='phoneNumin'>
+      <view class='tagout'>
+        <view class='title'>
+          <view class='text'>绑定手机号</view>
+          <view class='cancel' bindtap='cancel'>x</view>
+        </view>
+        <view class='phonenum'>
+          <input placeholder='输入手机号' type='number' placeholder-style='font-size:24rpx;font-family:PingFangSC-Regular;color:rgba(185,185,185,1);'></input>
+        </view>
+        <view class='checkNum'>
+          <input type='number'></input>
+          <button bindtap='checkNum'>获取验证码</button>
+        </view>
+        <view class='yes'>
+          <button>确定</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

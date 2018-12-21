@@ -1,0 +1,51 @@
+/* compents/top/top.wxss */
+/* 顶部 */
+
+.top {
+  width: 750rpx;
+  height: 408rpx;
+  padding-top: 20rpx;
+  background-color: #ea6819;
+  /* text-align: center; */
+  /* font-family:HanziPenSC-W5; */
+
+}
+
+.top .search {
+  width: 28rpx;
+  height: 28rpx;
+  position: absolute;
+  top: 60rpx;
+  left: 38rpx;
+}
+
+.topin {
+  width: 570rpx;
+  background-color: #fff;
+  height: 69rpx;
+  margin: 20rpx auto;
+  padding-left: 88rpx;
+}
+
+.image {
+  margin-top: 48rpx;
+}
+
+.image view {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+}
+
+.image text {
+  position: absolute;
+  font-size: 24rpx;
+  top: 117rpx;
+  left: 43rpx;
+}
+
+.top image {
+  width: 94rpx;
+  height: 93rpx;
+  margin-left: 44rpx;
+}

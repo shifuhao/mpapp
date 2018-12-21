@@ -1,0 +1,37 @@
+<!--components/detail/buy/index.wxml-->
+<!-- <text>components/detail/buy/index.wxml</text> -->
+<view class='tip'>
+  <view class='tipin'>
+    <view class='tipTitle'>
+      <image src='{{title.titleImg}}' mode='widthFix'></image>
+      <view class='titleIn'>
+        <view class='title'>{{title.titleText}}</view>
+        <view class='price'>{{title.titlePrice}}</view>
+      </view>
+      <view class='cancel' bindtap='cancel'>x</view>
+    </view>
+    <view class='kouwei'>
+      <view class='kouweiTitle'>口味：</view>
+      <view class='kouweiIn'>
+        <view class="{{checkIndex==index?'check':''}}" wx:for="{{kouwei}}" wx:key="{{index}}" data-index="{{index}}" bindtap='clickMe'>{{item}}</view>
+      </view>
+    </view>
+    <view class='num'>
+      <view class='numIn'>
+
+        <view class='numTitle'>数量：</view>
+        <view class='number'>剩余12334667件</view>
+        <view class='step'>
+          <view class="sub {{buyNum>1?'add':''}}" bindtap='sub'>-</view>
+          <text>{{buyNum}}</text>
+          <view class='add' bindtap='add'>+</view>
+        </view>
+      </view>
+
+    </view>
+    <view class='tipCancel' bindtap='next'>
+      下一步
+    </view>
+  </view>
+
+</view>

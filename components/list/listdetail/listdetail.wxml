@@ -1,0 +1,25 @@
+<!--components/list/listdetail/listdetail.wxml-->
+<view class='detailfa' wx:for="{{list}}" wx:key="{{index}}">
+  <view class='detaill'>
+    <image src="{{item.imagesrc}}" mode='aspectFit'></image>
+  </view>
+  <view class='detailr'>
+    <view class='title'>{{item.title}}</view>
+    <view class='des'>
+      <text>{{item.text}}</text>
+    </view>
+    <view class='dbottom'>
+      <view class='dleft'>
+        <view class='dltop'>
+          <text class='dltl'>{{item.text1}}</text>
+          <text class='dltr'>{{item.text2}}</text>
+        </view>
+        <view class='price'>{{item.price}}</view>
+      </view>
+      <view class='shopcar'>
+        <image mode='aspectFit' src='{{shopcar}}'></image>
+      </view>
+    </view>
+
+  </view>
+</view>

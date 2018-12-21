@@ -1,0 +1,13 @@
+<!--compents/dingjian/dingjian.wxml-->
+  <view class='djout'>
+    <view class='djtop'>{{title}}</view>
+    <view class='djbottom'>
+      <view class='listm' wx:for="{{list}}" wx:key="{{index}}">
+        <image src='{{item.imagesrc}}' mode='aspectFit'></image>
+        <text class='listtitle'>{{item.title}}</text>
+        <text class='listdes'>{{item.des}}</text>
+        <text class='listyuanjia'>{{item.hot}}</text>
+      </view>
+    </view>
+  </view>
+

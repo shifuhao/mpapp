@@ -1,0 +1,117 @@
+/* components/detail/shopdes/shopdes.wxss */
+
+.bor {
+  border-bottom: 10rpx solid #f0f0f0;
+  margin-bottom: 18rpx;
+}
+
+.fa {
+  margin: 0 32rpx;
+}
+
+.title {
+  margin-top: 24rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+}
+
+.titlename {
+  font-size: 36rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 1);
+  line-height: 50rpx;
+}
+
+.price1 {
+  font-size: 36rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 59, 48, 1);
+  line-height: 50rpx;
+  margin-right: 33rpx;
+}
+
+.price2 {
+  text-decoration: line-through;
+  font-size: 30rpx;
+  padding-top: 10rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(138, 138, 138, 1);
+  line-height: 30rpx;
+  align-self: center;
+}
+
+.titler image {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.titler view {
+  font-size: 20rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(237, 102, 0, 1);
+  line-height: 28rpx;
+}
+
+.sellnum {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(138, 138, 138, 1);
+  line-height: 33rpx;
+}
+
+.baoyou {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 17rpx;
+  margin-bottom: 18rpx;
+}
+
+.baoyoul {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24rpx;
+  margin-top: 12rpx;
+}
+
+.baoyour {
+  align-self: center;
+  color: rgba(187, 187, 187, 1);
+  margin-top: 34rpx;
+}
+
+.baoyoul .by:last-child {
+  margin-bottom: 18rpx;
+}
+
+.tag {
+  border: 1px solid rgba(255, 59, 48, 1);
+  color: rgba(255, 59, 48, 1);
+  padding: 2rpx;
+  line-height: 31rpx;
+  text-align: center;
+  margin-top: 12rpx;
+}
+
+.des {
+  margin-top: 18rpx;
+  margin-left: 47rpx;
+  /* margin-top: 4rpx; */
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  margin-right: 58rpx;
+  color: rgba(74, 144, 226, 1);
+  line-height: 33rpx;
+}
